@@ -33,6 +33,9 @@ class GoldenArches(telepot.helper.ChatHandler):
             bot.sendMessage(chat_id, 'Order Accepted: Order ' + self.order['order'] + ' payment ' + self.order['payment'])
 
 
+
+
+
 TOKEN = '5997125741:AAH1QKwbH9vEbHddWpoku_Q6pe_RdB3Ht88'
 
 bot = telepot.DelegatorBot(TOKEN, [
